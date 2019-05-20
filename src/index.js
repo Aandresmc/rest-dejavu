@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: false }))
 app.use(express.json());
 
 //routes
-app.use('/api', require('./routes/products'));
+app.use('/api-dejavu', require('./routes/products'));
 
 //starting the server
 const main = (async () => {
